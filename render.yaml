@@ -6,7 +6,7 @@ services:
     startCommand: npm start
     repo: https://github.com/yahia-adam/cloud_static_app
     branch: main
-    region: Frankfurt
+    region: frankfurt
     plan: free
     envVars:
       - key: DATABASE_URL
@@ -16,5 +16,5 @@ services:
 
 databases:
   - name: mydatabase
-    region: Frankfurt
+    region: frankfurt
     plan: free
