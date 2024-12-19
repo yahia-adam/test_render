@@ -7,6 +7,7 @@ services:
     repo: https://github.com/yahia-adam/cloud_static_app
     branch: main
     region: frankfurk
+    plan: free
     envVars:
       - key: DATABASE_URL
         fromDatabase:
@@ -15,4 +16,5 @@ services:
 
 databases:
   - name: mydatabase
+    plan: free
     region: frankfurk
