@@ -14,8 +14,7 @@ services:
           - name: mydatabase
           - property: connectionString
 
-
 databases:
   - name: mydatabase
-    plan: free
     region: frankfurt
+    plan: free
