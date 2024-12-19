@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: my_webapp
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    repo: https://github.com/yahia-adam/cloud_static_app
+    branch: main
+    region: frankfurk
+    envVars:
+      formDatabase:
+      - name: appdb
+      - property: connectionString
+
+databases:
+  - name: appdb
+    region: frankfurk
