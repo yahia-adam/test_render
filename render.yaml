@@ -1,6 +1,6 @@
 services:
-  - type: web
-    name: my_webapp
+  - name: my_webapp
+    type: web
     runtime: node
     buildCommand: npm install
     startCommand: npm start
