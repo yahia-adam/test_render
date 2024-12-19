@@ -1,5 +1,5 @@
 services:
-  - name: my_webapp
+  - name: clound-app
     type: web
     runtime: node
     buildCommand: npm install
