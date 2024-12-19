@@ -11,8 +11,8 @@ services:
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          - name: mydatabase
-          - property: connectionString
+          name: mydatabase
+          property: connectionString
 
 databases:
   - name: mydatabase
